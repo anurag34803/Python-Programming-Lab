@@ -1,0 +1,8 @@
+f = open('name.txt','w')
+a = input('Name\n')
+b = input('Roll No\n')
+c = input('Course\n')
+f.write(f'Name -: {a}\n')
+f.write(f'Roll No -: {a}\n')
+f.write(f'Course -: {c}\n')
+f.close()
