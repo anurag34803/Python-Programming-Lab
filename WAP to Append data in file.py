@@ -1,0 +1,7 @@
+f = open('name.txt','a')
+b = input("Enter Section\n")
+c = input("Enter Class Roll Number\n")
+f.write(f"Section -: {b}\n")
+f.write(f"Roll No -: {c}\n")
+open = f.read()
+print(open)
