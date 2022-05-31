@@ -1,0 +1,5 @@
+f = open('sample.txt','r')
+out = f.read()
+out = out.replace('I','E')
+print(out)
+f.close()
